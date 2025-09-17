@@ -5,11 +5,15 @@
         <div class="col-md-8">
           <div class="card p-4 shadow-lg">
             <div class="card-body">
-
               <!-- Title and Sub-Title -->
               <h1 class="text-center text-blue-500">{{ title }}</h1>
               <h2 class="text-center text-green-700">{{ subTitle }}</h2>
               <p class="text-center">{{ leadText }}</p>
+               <div class="justify-content-center d-flex">
+                 <img src="@/users/assets/logo.jpg"  class="img-fluid w-full" alt="">
+               </div>
+                <p class="p-2"></p>
+
 
               <!-- Questions -->
               <div v-for="(question, qIndex) in questions" :key="qIndex" class="mb-3">

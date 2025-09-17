@@ -1,6 +1,7 @@
 <template>
 <!--    <loading-all v-if="showLoader"></loading-all>-->
   <component :is="layout">
+
     <router-view/>
   </component>
 </template>
